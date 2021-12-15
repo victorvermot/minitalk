@@ -51,14 +51,14 @@ To perform operations on those bits, we can use the followings operators:
 
 - **<<** (left shift)
 ```shell
-100<<1
+100 << 1
 ---
 010
 ```
 
 - **<<** (right shift)
 ```shell
-010>>1
+010 >> 1
 ---
 100
 ```
