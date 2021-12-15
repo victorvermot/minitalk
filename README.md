@@ -3,7 +3,7 @@
 2. [Bitwise](#bitwise)
 	- [Bitwise operators](#operators)
 
-<h1>Introduction</h1> <a name="introduction"></a>
+# Introduction <a name="introduction"></a>
 Minitalk is a project developped by myself in ecole 42. The project was developed in C and it was done in about a week. The project introduces sorting unix signals and their usages. The projects also helps teaching basics bitwise operations.
 
 # Goals 
@@ -17,4 +17,46 @@ Bitwise is the making of operations on a byte level.
 To perform those operations, you can use the followings operators:
 
 # Bitwise Operators <a name="operators"></a>
-- **&** (AND): Compare two bytes: 1 and 1 = 1, the rest = 0
+- **&** (AND)
+```shell
+100
+101
+---
+100
+```
+- **|** (OR)
+```shell
+100
+101
+---
+101
+```
+
+- **^** (XOR)
+```shell
+100
+101
+---
+001
+```
+
+- **~** (NOT)
+```shell
+101
+---
+010
+```
+
+- **<<** (left shift)
+```shell
+100<<1
+---
+010
+```
+
+- **<<** (right shift)
+```shell
+010>>1
+---
+100
+```
